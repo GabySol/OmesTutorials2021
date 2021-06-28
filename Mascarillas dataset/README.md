@@ -7,6 +7,11 @@ En Dataset_faces existen dos directorios: Con_mascarilla y Sin_mascarilla. Cada 
 Cada una de ellas posee 72 pixeles de alto y ancho.
 
 ## ¿Cómo se obtuvieron estas imágenes?
-En un principio las imágenes fueron obtenidas de la fuente anteriormente mencionada, luego se volvió a aplicar detección facial con MediaPipe face detection, ya que este detector es el que se usa en el tutorial de youtube.
+En un principio las imágenes fueron obtenidas de la fuente anteriormente mencionada, luego se volvió a aplicar detección facial con MediaPipe face detection.
+Una vez ubicado el rostro en la imagen se procedió a recortar esta área y se la redimensionó a 72x72 pixeles.
 
 Una vez que se obtuvieron todas las detecciones, se fueron analizando las imágenes obtenidas con el objetivo de descartar detecciones erróneas.
+
+![](ejemplo_deteccion_recorte_redim.png)
+
+En esta imagen podemos ver un ejemplo de las imágenes de entrada (izquierda) y las imágenes resultades (derecha).
