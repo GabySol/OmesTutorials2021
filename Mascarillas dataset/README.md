@@ -1,5 +1,5 @@
 # Data set de rostros con y sin mascarillas
-Este dataset fue construído tomando imángenes de https://www.kaggle.com/ashishjangra27/face-mask-12k-images-dataset?select=Face+Mask+Dataset
+Este dataset fue construido tomando imágenes de https://www.kaggle.com/ashishjangra27/face-mask-12k-images-dataset?select=Face+Mask+Dataset
 
 VIDEO TUTORIAL (YOUTUBE) PARA LA DETECCIÓN DE PERSONAS QUE LLEVAN MASCARILLAS O NO: https://youtu.be/_SCD62HmJwA
 
@@ -14,4 +14,4 @@ Una vez que se obtuvieron todas las detecciones, se fueron analizando las imáge
 
 ![](ejemplo_deteccion_recorte_redim.png)
 
-En esta imagen podemos ver un ejemplo de las imágenes de entrada (izquierda) y las imágenes resultades (derecha).
+En esta imagen podemos ver un ejemplo de las imágenes de entrada (izquierda) y las imágenes resultantes (derecha).
